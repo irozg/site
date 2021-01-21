@@ -1,27 +1,28 @@
----
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: splash
-title: #MSc HCI - UPatras
-author_profile: false 
-header:
+--- 
+author_profile: false
+excerpt: "Human Computer Interaction"
+feature_row: 
+  - 
+    btn_label: "Learn More"
+    url: /news/
+  - 
+    btn_class: btn--primary
+    btn_label: Apply
+    excerpt: "Apply for admission of new students for the course starting in October 2020"
+    title: "Placeholder 2"
+    url: "https://hcimaster.upatras.gr/admissions-2020/admissions-2020-application/"
+  - 
+    alt: "poster HCI"
+    image_path: /assets/images/HCIMASTERposter2020b.jpg
+header: 
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/homepage.jpg
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-excerpt: "Human Computer Interaction"
-feature_row:
-  - url: "/news/"
-    btn_label: "Learn More"
- -  title: "Placeholder 2"
-    excerpt: "Apply for admission of new students for the course starting in October 2020"
-    url: "https://hcimaster.upatras.gr/admissions-2020/admissions-2020-application/"
-    btn_label: "Apply"
-    btn_class: "btn--primary"
-  - image_path: /assets/images/HCIMASTERposter2020b.jpg
-    alt: "poster HCI"
----
+layout: splash
+title: ~
 
+
+{% include dynamic.html id="posts" category="Posts" index=0 %}
 
 {% include feature_row %}
